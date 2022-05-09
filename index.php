@@ -4,16 +4,6 @@ error_reporting(0);
 include("includes/config.php");
 
 
-// //initialization
-// $st = curl_init();
-// curl_setopt($st, CURLOPT_URL, "http://127.0.0.1:5000/test");
-// curl_setopt($st, CURLOPT_RETURNTRANSFER, true);
-// $output = curl_exec($st);
-// $res = json_decode($output);
-// echo $res->text;
-
-// curl_close($st);
-
 
 if(isset($_POST['submit']))
 {
