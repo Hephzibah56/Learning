@@ -1,5 +1,5 @@
 <?php
-define('DB_SERVER','lampstack-1-vm');
+define('DB_SERVER','localhost');
 define('DB_USER','root');
 define('DB_PASS' , getenv("MYSQLPASS")?? '');
 define('DB_NAME', 'onlinecourse');
